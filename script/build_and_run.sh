@@ -80,8 +80,8 @@ if [[ -n "$SUPABASE_KEY_VALUE" ]]; then
 fi
 cp "$BIN_DIR/CellDock" "$APP_BINARY"
 cp "$BIN_DIR/CellDockNetworkHelper" "$HELPER_DIR/CellDockNetworkHelper"
-cp "$ROOT_DIR/Resources/app.mavo.celldock.network.helper.plist" \
-  "$DAEMON_DIR/app.mavo.celldock.network.helper.plist"
+cp "$ROOT_DIR/Resources/app.celldock.mac.network.helper.plist" \
+  "$DAEMON_DIR/app.celldock.mac.network.helper.plist"
 cp "$ROOT_DIR/Resources/CellDock.icns" "$APP_RESOURCES/CellDock.icns"
 cp -R "$ROOT_DIR/Resources/Localization/"*.lproj "$APP_RESOURCES/"
 mkdir -p "$APP_RESOURCES/Sounds"
